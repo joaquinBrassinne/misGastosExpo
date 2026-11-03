@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 780" width="400" height="780" style="background:#F8FAFC;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif;">
+  <!-- Mockup Phone Frame -->
+  <rect x="0" y="0" width="400" height="780" rx="30" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="400" height="40" rx="20" fill="#0F172A"/>
+  <circle cx="200" cy="20" r="4" fill="#334155"/>
+  <text x="34" y="24" fill="#FFFFFF" font-size="12" font-weight="600">14:55</text>
+  <text x="350" y="24" fill="#FFFFFF" font-size="11">100% 🔋</text>
+
+  <!-- App Header -->
+  <rect x="0" y="40" width="400" height="65" fill="#FFFFFF"/>
+  <line x1="0" y1="105" x2="400" y2="105" stroke="#F1F5F9" stroke-width="2"/>
+  <text x="20" y="70" font-size="20" font-weight="bold" fill="#0F172A">Gastos Personales</text>
+  <text x="20" y="88" font-size="12" fill="#64748B">Control financiero en SQLite</text>
+  <rect x="275" y="60" width="105" height="30" rx="15" fill="#EFF6FF"/>
+  <text x="290" y="80" font-size="11" font-weight="bold" fill="#2563EB">Saldo Inicial</text>
+
+  <!-- Balance Card -->
+  <g transform="translate(20, 120)">
+    <rect width="360" height="175" rx="18" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.04))"/>
+    <text x="16" y="28" font-size="11" font-weight="bold" fill="#64748B" letter-spacing="1">SALDO TOTAL ACTUAL</text>
+    <rect x="250" y="14" width="94" height="22" rx="11" fill="#EFF6FF"/>
+    <text x="258" y="29" font-size="10" font-weight="600" fill="#2563EB">✏️ Ajustar inicial</text>
+    
+    <text x="16" y="75" font-size="34" font-weight="800" fill="#0F172A">$ 217.400,00</text>
+    
+    <!-- Sub Metrics Row -->
+    <rect x="12" y="100" width="336" height="60" rx="12" fill="#F8FAFC" stroke="#F1F5F9" stroke-width="1"/>
+    
+    <!-- Inicial -->
+    <text x="24" y="122" font-size="10" font-weight="600" fill="#64748B">💼 Inicial</text>
+    <text x="24" y="144" font-size="12" font-weight="bold" fill="#0F172A">$ 150.000,00</text>
+    
+    <!-- Divider -->
+    <line x1="124" y1="110" x2="124" y2="150" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Ingresos -->
+    <text x="136" y="122" font-size="10" font-weight="600" fill="#10B981">⬆️ Ingresos</text>
+    <text x="136" y="144" font-size="12" font-weight="bold" fill="#10B981">+$ 468.000,00</text>
+    
+    <!-- Divider -->
+    <line x1="244" y1="110" x2="244" y2="150" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Gastos -->
+    <text x="256" y="122" font-size="10" font-weight="600" fill="#EF4444">⬇️ Gastos</text>
+    <text x="256" y="144" font-size="12" font-weight="bold" fill="#EF4444">-$ 400.600,00</text>
+  </g>
+
+  <!-- Quick Action Buttons -->
+  <g transform="translate(20, 310)">
+    <!-- Gasto -->
+    <rect x="0" y="0" width="172" height="72" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" stroke-left="#EF4444"/>
+    <line x1="0" y1="0" x2="0" y2="72" stroke="#EF4444" stroke-width="8"/>
+    <circle cx="28" cy="24" r="14" fill="#FEE2E2"/>
+    <text x="22" y="29" font-size="14" fill="#EF4444">⬇</text>
+    <text x="50" y="28" font-size="14" font-weight="bold" fill="#0F172A">Nuevo Gasto</text>
+    <text x="50" y="46" font-size="11" fill="#64748B">Compra o pago</text>
+    
+    <!-- Ingreso -->
+    <rect x="188" y="0" width="172" height="72" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="188" y1="0" x2="188" y2="72" stroke="#10B981" stroke-width="8"/>
+    <circle cx="216" cy="24" r="14" fill="#D1FAE5"/>
+    <text x="210" y="29" font-size="14" fill="#10B981">⬆</text>
+    <text x="238" y="28" font-size="14" font-weight="bold" fill="#0F172A">Nuevo Ingreso</text>
+    <text x="238" y="46" font-size="11" fill="#64748B">Sueldo o ventas</text>
+  </g>
+
+  <!-- Section Header -->
+  <g transform="translate(20, 400)">
+    <text x="0" y="18" font-size="16" font-weight="bold" fill="#0F172A">Últimos Movimientos</text>
+    <text x="270" y="18" font-size="12" font-weight="600" fill="#2563EB">Ver todos (16)</text>
+  </g>
+
+  <!-- Transaction Items List -->
+  <g transform="translate(20, 430)">
+    <!-- Item 1 -->
+    <rect x="0" y="0" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="31" r="18" fill="#FEE2E2"/>
+    <text x="20" y="37" font-size="16">👟</text>
+    <text x="56" y="26" font-size="14" font-weight="bold" fill="#0F172A">Ropa y Calzado</text>
+    <text x="56" y="44" font-size="11" fill="#64748B">Zapatillas en liquidación • Ayer</text>
+    <text x="260" y="36" font-size="14" font-weight="bold" fill="#EF4444">- $ 16.800,00</text>
+
+    <!-- Item 2 -->
+    <rect x="0" y="70" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="101" r="18" fill="#D1FAE5"/>
+    <text x="20" y="107" font-size="16">🏷️</text>
+    <text x="56" y="96" font-size="14" font-weight="bold" fill="#0F172A">Ventas</text>
+    <text x="56" y="114" font-size="11" fill="#64748B">Venta de monitor • 29 Oct</text>
+    <text x="255" y="106" font-size="14" font-weight="bold" fill="#10B981">+ $ 15.000,00</text>
+
+    <!-- Item 3 -->
+    <rect x="0" y="140" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="171" r="18" fill="#FEE2E2"/>
+    <text x="20" y="177" font-size="16">🍔</text>
+    <text x="56" y="166" font-size="14" font-weight="bold" fill="#0F172A">Alimentación</text>
+    <text x="56" y="184" font-size="11" fill="#64748B">Almuerzo laboral • 29 Oct</text>
+    <text x="260" y="176" font-size="14" font-weight="bold" fill="#EF4444">- $ 11.200,00</text>
+
+    <!-- Item 4 -->
+    <rect x="0" y="210" width="360" height="62" rx="12" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="241" r="18" fill="#EFF6FF"/>
+    <text x="20" y="247" font-size="16">🚕</text>
+    <text x="56" y="236" font-size="14" font-weight="bold" fill="#0F172A">Transporte</text>
+    <text x="56" y="254" font-size="11" fill="#64748B">Viaje en taxi a reunión • 27 Oct</text>
+    <text x="265" y="246" font-size="14" font-weight="bold" fill="#EF4444">- $ 4.500,00</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <rect x="0" y="715" width="400" height="65" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Tab 1 Active: Inicio -->
+  <rect x="25" y="722" width="50" height="28" rx="14" fill="#EFF6FF"/>
+  <text x="41" y="741" font-size="14" fill="#2563EB">🏠</text>
+  <text x="35" y="762" font-size="10" font-weight="bold" fill="#2563EB">Inicio</text>
+  
+  <!-- Tab 2: Movimientos -->
+  <text x="135" y="741" font-size="14" fill="#94A3B8">⇄</text>
+  <text x="115" y="762" font-size="10" font-weight="500" fill="#64748B">Movimientos</text>
+  
+  <!-- Tab 3: Informes -->
+  <text x="235" y="741" font-size="14" fill="#94A3B8">📊</text>
+  <text x="222" y="762" font-size="10" font-weight="500" fill="#64748B">Informes</text>
+  
+  <!-- Tab 4: Categorías -->
+  <text x="335" y="741" font-size="14" fill="#94A3B8">⚙️</text>
+  <text x="318" y="762" font-size="10" font-weight="500" fill="#64748B">Categorías</text>
+</svg>
+

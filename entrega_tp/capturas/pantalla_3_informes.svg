@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 780" width="400" height="780" style="background:#F8FAFC;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif;">
+  <rect x="0" y="0" width="400" height="780" rx="30" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="400" height="40" rx="20" fill="#0F172A"/>
+  <text x="34" y="24" fill="#FFFFFF" font-size="12" font-weight="600">14:55</text>
+  <text x="350" y="24" fill="#FFFFFF" font-size="11">100% 🔋</text>
+
+  <!-- App Header -->
+  <rect x="0" y="40" width="400" height="65" fill="#FFFFFF"/>
+  <line x1="0" y1="105" x2="400" y2="105" stroke="#F1F5F9" stroke-width="2"/>
+  <text x="20" y="70" font-size="20" font-weight="bold" fill="#0F172A">Informes</text>
+  <text x="20" y="88" font-size="12" fill="#64748B">Análisis semanal y mensual de gastos</text>
+
+  <!-- Month Selector Bar -->
+  <g transform="translate(20, 115)">
+    <rect width="360" height="44" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="24" cy="22" r="14" fill="#F1F5F9"/>
+    <text x="18" y="26" font-size="12" fill="#0F172A">◀</text>
+    
+    <text x="110" y="27" font-size="14" font-weight="bold" fill="#0F172A">📅 Octubre 2026</text>
+    
+    <circle cx="336" cy="22" r="14" fill="#F1F5F9"/>
+    <text x="332" y="26" font-size="12" fill="#0F172A">▶</text>
+  </g>
+
+  <!-- Tab Selector: Categorias vs Semanas -->
+  <g transform="translate(20, 170)">
+    <rect x="0" y="0" width="175" height="34" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <text x="45" y="22" font-size="12" font-weight="bold" fill="#2563EB">🥧 Por Categorías</text>
+    
+    <rect x="185" y="0" width="175" height="34" rx="10" fill="#F1F5F9"/>
+    <text x="235" y="22" font-size="12" font-weight="500" fill="#64748B">📈 Por Semanas</text>
+  </g>
+
+  <!-- Month Balance Summary Card -->
+  <g transform="translate(20, 218)">
+    <rect width="360" height="75" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="16" y="22" font-size="11" font-weight="bold" fill="#64748B">BALANCE DE OCTUBRE 2026</text>
+    
+    <g transform="translate(16, 32)">
+      <text x="0" y="14" font-size="10" fill="#64748B">Total Gastos</text>
+      <text x="0" y="32" font-size="13" font-weight="bold" fill="#EF4444">$ 250.600,00</text>
+      
+      <text x="120" y="14" font-size="10" fill="#64748B">Total Ingresos</text>
+      <text x="120" y="32" font-size="13" font-weight="bold" fill="#10B981">+$ 468.000,00</text>
+      
+      <text x="240" y="14" font-size="10" fill="#64748B">Ahorro Neto</text>
+      <text x="240" y="32" font-size="13" font-weight="bold" fill="#0F172A">+$ 217.400,00</text>
+    </g>
+  </g>
+
+  <!-- Section Title -->
+  <text x="20" y="318" font-size="14" font-weight="bold" fill="#0F172A">Desglose de Gastos por Categoría</text>
+
+  <!-- Category Expense Breakdown Cards -->
+  <g transform="translate(20, 335)">
+    <!-- Cat 1: Vivienda (Top) -->
+    <rect x="0" y="0" width="360" height="80" rx="14" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="30" r="16" fill="#3B82F6"/>
+    <text x="20" y="35" font-size="14" fill="#FFFFFF">🏠</text>
+    <text x="54" y="26" font-size="13" font-weight="bold" fill="#0F172A">Vivienda y Servicios</text>
+    <rect x="180" y="14" width="70" height="18" rx="6" fill="#FEF3C7"/>
+    <text x="186" y="27" font-size="9" font-weight="bold" fill="#D97706">Mayor Gasto</text>
+    <text x="54" y="44" font-size="10" fill="#64748B">2 movimientos</text>
+    <text x="260" y="28" font-size="14" font-weight="bold" fill="#EF4444">$ 103.500,00</text>
+    <text x="310" y="44" font-size="11" font-weight="bold" fill="#64748B">41.3%</text>
+    <!-- Progress Bar -->
+    <rect x="16" y="58" width="328" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="58" width="135" height="8" rx="4" fill="#3B82F6"/>
+
+    <!-- Cat 2: Supermercado -->
+    <rect x="0" y="88" width="360" height="80" rx="14" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="118" r="16" fill="#F97316"/>
+    <text x="20" y="123" font-size="14" fill="#FFFFFF">🛒</text>
+    <text x="54" y="114" font-size="13" font-weight="bold" fill="#0F172A">Supermercado</text>
+    <text x="54" y="132" font-size="10" fill="#64748B">2 movimientos</text>
+    <text x="268" y="116" font-size="14" font-weight="bold" fill="#EF4444">$ 60.500,00</text>
+    <text x="310" y="132" font-size="11" font-weight="bold" fill="#64748B">24.1%</text>
+    <!-- Progress Bar -->
+    <rect x="16" y="146" width="328" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="146" width="79" height="8" rx="4" fill="#F97316"/>
+
+    <!-- Cat 3: Educación -->
+    <rect x="0" y="176" width="360" height="80" rx="14" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="206" r="16" fill="#8B5CF6"/>
+    <text x="20" y="211" font-size="14" fill="#FFFFFF">🎓</text>
+    <text x="54" y="202" font-size="13" font-weight="bold" fill="#0F172A">Educación</text>
+    <text x="54" y="220" font-size="10" fill="#64748B">1 movimiento</text>
+    <text x="268" y="204" font-size="14" font-weight="bold" fill="#EF4444">$ 19.500,00</text>
+    <text x="317" y="220" font-size="11" font-weight="bold" fill="#64748B">7.8%</text>
+    <!-- Progress Bar -->
+    <rect x="16" y="234" width="328" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="234" width="26" height="8" rx="4" fill="#8B5CF6"/>
+
+    <!-- Cat 4: Alimentación -->
+    <rect x="0" y="264" width="360" height="80" rx="14" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <circle cx="28" cy="294" r="16" fill="#EF4444"/>
+    <text x="20" y="299" font-size="14" fill="#FFFFFF">🍔</text>
+    <text x="54" y="290" font-size="13" font-weight="bold" fill="#0F172A">Alimentación</text>
+    <text x="54" y="308" font-size="10" fill="#64748B">2 movimientos</text>
+    <text x="268" y="292" font-size="14" font-weight="bold" fill="#EF4444">$ 19.600,00</text>
+    <text x="317" y="308" font-size="11" font-weight="bold" fill="#64748B">7.8%</text>
+    <!-- Progress Bar -->
+    <rect x="16" y="322" width="328" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="16" y="322" width="26" height="8" rx="4" fill="#EF4444"/>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <rect x="0" y="715" width="400" height="65" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Tab 1: Inicio -->
+  <text x="41" y="741" font-size="14" fill="#94A3B8">🏠</text>
+  <text x="35" y="762" font-size="10" font-weight="500" fill="#64748B">Inicio</text>
+  
+  <!-- Tab 2: Movimientos -->
+  <text x="144" y="741" font-size="14" fill="#94A3B8">⇄</text>
+  <text x="122" y="762" font-size="10" font-weight="500" fill="#64748B">Movimientos</text>
+  
+  <!-- Tab 3 Active: Informes -->
+  <rect x="215" y="722" width="60" height="28" rx="14" fill="#EFF6FF"/>
+  <text x="238" y="741" font-size="14" fill="#2563EB">📊</text>
+  <text x="225" y="762" font-size="10" font-weight="bold" fill="#2563EB">Informes</text>
+  
+  <!-- Tab 4: Categorías -->
+  <text x="335" y="741" font-size="14" fill="#94A3B8">⚙️</text>
+  <text x="318" y="762" font-size="10" font-weight="500" fill="#64748B">Categorías</text>
+</svg>
+

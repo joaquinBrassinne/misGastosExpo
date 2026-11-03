@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 780" width="400" height="780" style="background:#F8FAFC;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif;">
+  <rect x="0" y="0" width="400" height="780" rx="30" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="400" height="40" rx="20" fill="#0F172A"/>
+  <text x="34" y="24" fill="#FFFFFF" font-size="12" font-weight="600">14:55</text>
+  <text x="350" y="24" fill="#FFFFFF" font-size="11">100% 🔋</text>
+
+  <!-- App Header -->
+  <rect x="0" y="40" width="400" height="65" fill="#FFFFFF"/>
+  <line x1="0" y1="105" x2="400" y2="105" stroke="#F1F5F9" stroke-width="2"/>
+  <text x="20" y="70" font-size="20" font-weight="bold" fill="#0F172A">Categorías y Ajustes</text>
+  <text x="20" y="88" font-size="12" fill="#64748B">Gestión de categorías y SQLite</text>
+  <rect x="290" y="60" width="90" height="30" rx="15" fill="#EFF6FF"/>
+  <text x="303" y="80" font-size="11" font-weight="bold" fill="#2563EB">+ Categoría</text>
+
+  <!-- Section 1: Categories -->
+  <g transform="translate(20, 115)">
+    <text x="0" y="14" font-size="14" font-weight="bold" fill="#0F172A">Categorías Relacionales</text>
+    
+    <!-- Type Toggle -->
+    <rect x="0" y="25" width="360" height="34" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="2" y="27" width="176" height="30" rx="8" fill="#EFF6FF"/>
+    <text x="50" y="46" font-size="11" font-weight="bold" fill="#2563EB">Gastos (9)</text>
+    <text x="235" y="46" font-size="11" font-weight="500" fill="#64748B">Ingresos (6)</text>
+    
+    <!-- Category Items List -->
+    <g transform="translate(0, 68)">
+      <rect width="360" height="150" rx="14" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+      
+      <!-- Row 1 -->
+      <circle cx="26" cy="25" r="14" fill="#EF4444"/>
+      <text x="20" y="30" font-size="12" fill="#FFFFFF">🍴</text>
+      <text x="50" y="24" font-size="13" font-weight="bold" fill="#0F172A">Alimentación</text>
+      <text x="50" y="38" font-size="10" fill="#94A3B8">Predeterminada del sistema</text>
+      <text x="325" y="28" font-size="14" fill="#64748B">✏️</text>
+      <line x1="16" y1="50" x2="344" y2="50" stroke="#F8FAFC" stroke-width="1"/>
+      
+      <!-- Row 2 -->
+      <circle cx="26" cy="75" r="14" fill="#F59E0B"/>
+      <text x="20" y="80" font-size="12" fill="#FFFFFF">🚗</text>
+      <text x="50" y="74" font-size="13" font-weight="bold" fill="#0F172A">Transporte</text>
+      <text x="50" y="88" font-size="10" fill="#94A3B8">Predeterminada del sistema</text>
+      <text x="325" y="78" font-size="14" fill="#64748B">✏️</text>
+      <line x1="16" y1="100" x2="344" y2="100" stroke="#F8FAFC" stroke-width="1"/>
+
+      <!-- Row 3 -->
+      <circle cx="26" cy="125" r="14" fill="#3B82F6"/>
+      <text x="20" y="130" font-size="12" fill="#FFFFFF">🏠</text>
+      <text x="50" y="124" font-size="13" font-weight="bold" fill="#0F172A">Vivienda y Servicios</text>
+      <text x="50" y="138" font-size="10" fill="#94A3B8">Predeterminada del sistema</text>
+      <text x="325" y="128" font-size="14" fill="#64748B">✏️</text>
+    </g>
+  </g>
+
+  <!-- Section 2: Account Settings -->
+  <g transform="translate(20, 350)">
+    <text x="0" y="14" font-size="14" font-weight="bold" fill="#0F172A">Configuración de Cuenta</text>
+    
+    <rect x="0" y="24" width="360" height="66" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="32" cy="57" r="18" fill="#EFF6FF"/>
+    <text x="24" y="63" font-size="16">💼</text>
+    <text x="60" y="50" font-size="14" font-weight="bold" fill="#0F172A">Saldo Inicial</text>
+    <text x="60" y="68" font-size="12" fill="#64748B">Valor actual: $ 150.000,00</text>
+    <rect x="270" y="44" width="76" height="26" rx="8" fill="#EFF6FF"/>
+    <text x="282" y="61" font-size="11" font-weight="bold" fill="#2563EB">Modificar</text>
+  </g>
+
+  <!-- Section 3: SQLite Status -->
+  <g transform="translate(20, 460)">
+    <text x="0" y="14" font-size="14" font-weight="bold" fill="#0F172A">Estado de la Base de Datos SQLite</text>
+    
+    <rect x="0" y="24" width="360" height="110" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <text x="16" y="50" font-size="11" fill="#64748B">Motor SQLite:</text>
+    <text x="180" y="50" font-size="11" font-weight="bold" fill="#0F172A">expo-sqlite (Android) / sql.js (Web)</text>
+    <line x1="16" y1="58" x2="344" y2="58" stroke="#F8FAFC" stroke-width="1"/>
+
+    <text x="16" y="78" font-size="11" fill="#64748B">Tablas relacionales:</text>
+    <text x="180" y="78" font-size="11" font-weight="bold" fill="#0F172A">movimientos, categorias, config</text>
+    <line x1="16" y1="86" x2="344" y2="86" stroke="#F8FAFC" stroke-width="1"/>
+
+    <text x="16" y="106" font-size="11" fill="#64748B">Total movimientos:</text>
+    <text x="180" y="106" font-size="11" font-weight="bold" fill="#0F172A">16 transacciones</text>
+    <line x1="16" y1="114" x2="344" y2="114" stroke="#F8FAFC" stroke-width="1"/>
+
+    <text x="16" y="128" font-size="11" fill="#64748B">Total categorías:</text>
+    <text x="180" y="128" font-size="11" font-weight="bold" fill="#0F172A">15 categorías</text>
+  </g>
+
+  <!-- Section 4: Actions -->
+  <g transform="translate(20, 610)">
+    <rect x="0" y="0" width="360" height="42" rx="10" fill="transparent" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="90" y="26" font-size="12" font-weight="bold" fill="#2563EB">📥 Cargar Datos de Demostración</text>
+
+    <rect x="0" y="50" width="360" height="42" rx="10" fill="#EF4444"/>
+    <text x="110" y="76" font-size="12" font-weight="bold" fill="#FFFFFF">⚠️ Reiniciar Base de Datos</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <rect x="0" y="715" width="400" height="65" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Tab 1: Inicio -->
+  <text x="41" y="741" font-size="14" fill="#94A3B8">🏠</text>
+  <text x="35" y="762" font-size="10" font-weight="500" fill="#64748B">Inicio</text>
+  
+  <!-- Tab 2: Movimientos -->
+  <text x="144" y="741" font-size="14" fill="#94A3B8">⇄</text>
+  <text x="122" y="762" font-size="10" font-weight="500" fill="#64748B">Movimientos</text>
+  
+  <!-- Tab 3: Informes -->
+  <text x="238" y="741" font-size="14" fill="#94A3B8">📊</text>
+  <text x="225" y="762" font-size="10" font-weight="500" fill="#64748B">Informes</text>
+  
+  <!-- Tab 4 Active: Categorías -->
+  <rect x="310" y="722" width="70" height="28" rx="14" fill="#EFF6FF"/>
+  <text x="338" y="741" font-size="14" fill="#2563EB">⚙️</text>
+  <text x="322" y="762" font-size="10" font-weight="bold" fill="#2563EB">Categorías</text>
+</svg>
+
