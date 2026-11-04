@@ -275,18 +275,6 @@ El resultado se encuentra en la carpeta `dist/` (incluye `index.html`, bundles j
 
 ---
 
-## 📦 Estructura de los Archivos de Entrega (Google Drive)
-
-Siguiendo las pautas de presentación, se generaron los 3 archivos ZIP solicitados:
-
-1. **`1_codigo_proyecto.zip`**:
-   - Contiene todo el código fuente del proyecto (`src/`, `assets/`, `App.tsx`, `package.json`, `tsconfig.json`, `README.md`, etc.), excluyendo `node_modules` para optimizar el tamaño.
-2. **`2_build_web_sqljs.zip`**:
-   - Contiene la carpeta completa `dist/` con el compilado web listo para producción utilizando `sql.js` en memoria.
-3. **`3_informe_trabajo_practico.zip`**:
-   - Contiene este informe técnico exhaustivo en formato Markdown (`INFORME_TRABAJO_PRACTICO.md`) junto con la carpeta de capturas de pantalla vectoriales (`capturas/`).
-
----
 
 ## 🎓 Conclusiones y Aprendizajes
 

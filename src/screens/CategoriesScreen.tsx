@@ -192,7 +192,7 @@ export const CategoriesScreen: React.FC = () => {
 
             <View style={styles.dbInfoRow}>
               <Text style={styles.dbInfoKey}>Tablas relacionales:</Text>
-              <Text style={styles.dbInfoVal}>movimientos, categorias, configuracion</Text>
+              <Text style={styles.dbInfoVal}>movimientos, categorias, config</Text>
             </View>
 
             <View style={styles.dbInfoRow}>
